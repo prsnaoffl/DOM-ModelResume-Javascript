@@ -1,0 +1,294 @@
+.container{
+    background-color: palegreen;
+}
+
+
+.class1{
+    background-color:lightgrey;
+    width:65%;
+    height:230px;
+    margin-left :215px;
+    background: linear-gradient(
+        to bottom,
+        rgb(70, 68, 65)20%,
+        rgb(87, 85, 82)50%,
+        rgb(122, 121, 122)100%
+    );
+}
+
+
+.imagecls{
+    display:grid;
+   justify-items:center;
+   padding-top:30px;
+}
+
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 135px; 
+    border: 3px dotted red;       
+}   
+
+.clswhite{
+    margin-top:10px;
+    padding-top:20px;
+    background-color:rgb(233, 227, 227);
+    width: 100%;
+    line-height:15px;
+}
+
+.pername{
+    width:13%;
+    background-color:orange; 
+    padding-left:25px;
+    position: absolute;
+    top:170px;
+    left:560px;  
+    border-radius: 7px;
+}
+
+.linehr{
+    padding-left:160px;  
+    margin-top:30px;
+    border-bottom:2px solid darkgrey; 
+}
+
+.fa-user-circle{
+    margin-top: 30px;
+    color:rgb(255, 115, 0);
+}
+
+
+.profilesec{
+    width:50%;
+    border-right:2px solid darkgrey;     
+}
+
+
+.para{
+    position: relative;
+    top:-35px;
+    text-align: justify;
+    line-height:1.5rem;
+    width:90%;
+}
+
+.headtag{
+  position: relative;
+  top: -41px;
+  left:28px;
+  color:rgb(85, 84, 84);
+ }
+
+.fa-book-reader{
+   color:rgb(255, 115, 0) ;
+   position: relative;
+   top:-20px;
+}
+
+.headtag1{
+    position: relative;
+    top: -60px;
+    left:28px;
+    color:rgb(85, 84, 84);
+}
+
+.headtags2{
+    padding-left: 130px;
+    position: relative;
+    top: -63px;
+    border-right:2px solid darkgrey;
+    width:35%;
+}
+
+
+
+.techbox{
+    position: relative;
+    top: -85px;
+    border-right:2px solid darkgrey;
+    width:50%;
+    padding-top:10px;
+    
+}
+
+.range1{
+   display: grid;
+   width:50%;
+   position: relative;
+   top: -250px;
+   margin-left:180px;
+   margin-bottom:20px;
+}
+
+.headtags2x{
+    position: relative;
+    left: 125px;
+}
+
+.addsk{
+    position: relative;
+    top: -270px;  
+}
+
+.rangexx{
+    display:grid;
+    width:50%;
+    position: relative;
+    top: -190px;   
+}
+
+.rangex1{
+    margin-bottom:17px;
+}
+
+.workex{
+    position: relative;
+    top: -160px;
+}
+
+.workexhead{
+    position: relative;
+    left: 10px;
+    top:-22px;
+    color:rgb(73, 72, 72);
+    margin-bottom:35px;
+}
+
+.workexhead2{
+    position: relative;
+    top:-40px; 
+}
+
+.workspan{
+    position: relative;
+    top: -55px; 
+}
+
+.ullist{
+    position: relative;
+    top: -50px; 
+    left: -10px;
+}
+
+.lilist{
+    margin-bottom: 15px;
+    width:90%;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+
+.rightbox{
+    position:relative;
+    top: -1305px; 
+    left:470px;
+}
+
+.rightboxhead{
+    position: absolute;
+    top: -40px; 
+    left:5px;
+    color:rgb(73, 72, 72);
+}
+
+.fa-briefcase{
+    position: absolute;
+    top: -20px;
+    left: -20px; 
+    color:rgb(255, 136, 0);
+}
+
+.rightboxhead2{
+   padding-top: 15px;
+}
+
+.rightboxspan{
+    position: absolute;
+    top: 40px;
+}
+
+.ullistx{
+    position: absolute;
+    top: 80px; 
+}
+
+.rbox{
+    position: absolute;
+    top: -380px;
+    right:-265px;
+}
+
+.rboxspan{
+   position:absolute;
+   top:85px;
+}
+
+.rboxhead{
+    color:rgb(65, 64, 64)
+}
+
+.Edu{
+    position: absolute;
+    top: 470px;
+    line-height: 2rem;
+    width:90%;
+    text-align: justify;
+}
+
+.Edux{
+    margin-bottom:15px;
+    width:90%;
+}
+
+.fa-graduation-cap{
+    position: absolute;
+    top: 22px;
+    left:-25px;
+    color:rgb(255, 153, 0);
+}
+
+.lone{
+    padding-top:140px;
+}
+
+
+input[type="range"]{
+    height:25px;
+    margin: 10px 0;
+    -webkit-appearance: none;
+    padding-left:170px;
+}
+.rangexx > input[type="range"]{
+    height:17px;
+    margin: 10px 0;
+    -webkit-appearance: none;
+    padding-left:170px;
+}
+
+.rangexx{
+    width:385px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track{
+    height: 5px;
+    cursor: pointer;
+    background: orange;
+    background:linear-gradient
+    (to right orange 50%,  rgb(206, 157, 65)100%);
+    border-radius: 12px;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    box-shadow: 1px 1px 1px black;
+    height: 8px;
+    width: 8px;
+    border: 1px solid black;
+    border-radius: 7px;
+    -webkit-appearance: none;
+    background-color: white;
+    cursor: pointer;
+    margin-top: -1px;
+}
+
